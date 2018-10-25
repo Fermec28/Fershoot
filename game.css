@@ -1,0 +1,70 @@
+*{
+    background-color: aquamarine;
+    box-sizing: border-box;
+}
+body{
+    margin:0px;
+}
+.app{
+    height: 100vh;
+    position: relative;
+}
+
+.ball {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background-color: red;
+    position: absolute;
+}
+
+.enemy {
+    width: 30px;
+    height: 30px;    
+    position: absolute;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.black {
+    background-color: black;
+}
+
+.red{
+    background-color: red;
+}
+.selectors{
+    height: 270px;
+    width: 60px;
+    /*background-color: blueviolet;*/    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    right: 0px;    
+    top: calc(50% - 135px);
+}
+
+.selector{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin-top:30px;
+
+}
+.selector:hover{
+    border: 5px solid white;
+}
+#shooter{
+    width: 30px;
+    height: 60px;
+    background-color: black;
+    align-items: center;
+    margin: 0 auto;
+    position:absolute;
+    bottom: 0px;
+    left: 50%;
+
+}
